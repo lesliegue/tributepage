@@ -1,0 +1,57 @@
+h1 {
+  font-family: Segoe UI;
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  font-family: Segoe UI;
+}
+p {
+  font-family: Helvetica neue;
+  line-height: 2;
+}
+#undertitle {
+  display: flex;
+  justify-content: center;
+  font-family: Segoe UI;
+  font-wight: 500;
+  line-height: 1.5;
+}
+h3 {
+  font-family: Segoe UI;
+  font-weight: 500;
+  font-size: 18px;
+}
+h4 {
+  font-family: Segoe UI;
+  font-weight: 400;
+}
+#main {
+  margin: 30px 20px;
+  padding: 35px;
+  background: #ADD8D6;
+}
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+#img-div {
+  margin: 0;
+  line-height: 2.5;
+}
+#img-caption {
+  display: flex;
+  align-text: center;
+}
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+ 
